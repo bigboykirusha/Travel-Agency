@@ -149,6 +149,10 @@ h6 {
   padding-left: 50px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  row-gap: 30px;
 }
 .header__items {
   display: -webkit-box;

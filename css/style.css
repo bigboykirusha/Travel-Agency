@@ -191,3 +191,126 @@ h6 {
   top: 0;
   left: 0;
 }
+
+.booking-block {
+  background-color: #F7F7F7;
+}
+.booking-block__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+.booking-block__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #FFFFFF;
+  padding: 10px 10px 20px 10px;
+  -webkit-column-gap: 17px;
+     -moz-column-gap: 17px;
+          column-gap: 17px;
+  border-radius: 25px 25px 0px 0px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+.booking-block__button {
+  border-radius: 25px;
+  background: rgba(62, 134, 245, 0.2);
+}
+.booking-block__button_hotel .button-booking__picture {
+  padding: 5.5px;
+}
+.booking-block__footer {
+  border-radius: 0px 50px 50px 50px;
+  background-color: #FFFFFF;
+  padding: 60px 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 40px;
+}
+.booking-block__area {
+  border: 2px solid rgba(172, 172, 172, 0.5);
+  border-radius: 25px;
+  padding: 43px 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1.5;
+  display: flex;
+  -webkit-column-gap: 32px;
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+}
+.booking-block__area:nth-child(2) {
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+}
+.booking-block__find {
+  background: rgba(62, 134, 245, 0.8);
+  border-radius: 65px;
+}
+.booking-block__lupa {
+  padding: 50px 52px;
+}
+
+.button-booking {
+  padding: 15px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.button-booking:last-child {
+  background-color: #FFFFFF;
+}
+.button-booking__caption {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.area__title {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.area__title_image-left {
+  background-image: url(../img/plane-left.png);
+  background-repeat: no-repeat;
+  background-position: 60% 50%;
+}
+.area__title_image-right {
+  background-image: url(../img/plane-right.png);
+  background-repeat: no-repeat;
+  background-position: 65% 50%;
+}
+.area__subtitle {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.area__image {
+  padding: 8px 7px;
+  border-radius: 50%;
+  border: 1px dashed rgba(0, 0, 0, 0.5);
+}

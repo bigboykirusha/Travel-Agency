@@ -8,11 +8,10 @@
 }
 
 .header {
+
 	position: absolute;
 	z-index: 2;
 	width: 100%;
-
-	// .header__navigation
 
 	&__navigation {
 		color: $white-color;
@@ -22,14 +21,11 @@
 		flex-wrap: wrap;
 	}
 
-	// .header__logo
-
 	&__logo {
 		font-size: 48px;
 		flex: 1 1 auto;
 	}
 
-	// .header__nav
 	&__items {
 		display: flex;
 		flex-wrap: wrap;
@@ -52,8 +48,6 @@
 	
 .about-block {
 
-	// .about-block__preview
-
 	&__preview {
 		position: relative;
 		z-index: 2;
@@ -64,8 +58,6 @@
 		margin: 0 auto;
 	}
 
-	// .about-block__title
-
 	&__title {
 		font-weight: 600;
 		font-size: 64px;
@@ -74,13 +66,9 @@
 		padding-bottom: 40px;
 	}
 
-	// .about-block__subtitle
-
 	&__subtitle {
 		line-height: 2;
 	}
-
-	// .about-block__ibg
 
 	&__ibg {
 		position: absolute;
@@ -90,9 +78,140 @@
 		left: 0;
 	}
 	
-
 }
 
+.booking-block {
 
+	background-color: #F7F7F7;
+
+	&__container {
+		
+	}
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		z-index: 2;
+	}
+
+	&__header {
+		display: flex;
+		background-color: $white-color;
+		padding: 10px 10px 20px 10px;
+		column-gap: 17px;
+		border-radius: 25px 25px 0px 0px;
+		width: max-content;
+	}
+
+	&__button {
+		border-radius: 25px;
+		background: rgba($color: $blue-color, $alpha: 0.2);
+
+		&_plane {
+		}
+
+		&_hotel {
+			.button-booking__picture {
+				padding: 5.5px
+			}
+		}
+	}
+
+	&__footer {
+		border-radius: 0px 50px 50px 50px;
+		background-color: $white-color;
+		padding: 60px 48px;
+		display: flex;
+		column-gap: 32px;
+		justify-content: space-between;
+		width: 100%;
+		flex-wrap: wrap;
+		row-gap: 40px;
+	}
+
+	&__area {
+		border: 2px solid rgba(172, 172, 172, 0.5);
+		border-radius: 25px;
+		padding: 43px 22px;
+		display: flex;
+		align-items: center;
+		line-height: 1.5;
+		display: flex;
+		column-gap: 32px;
+		&:nth-child(2) {
+			column-gap: 50px;
+		}
+	}
+
+	&__find {
+		background: rgba(62, 134, 245, 0.8);
+		border-radius: 65px;
+	}
+
+	&__lupa {
+		padding: 50px 52px;
+	}
+}
+.button-booking {
+	padding:15px 20px;
+	display: flex;
+	align-items: center;
+	&:last-child{
+			background-color: $white-color;
+		}
+
+	&__picture {
+	}
+
+	&__caption {
+		font-size: 18px;
+		line-height: 1.5;
+	}
+}
+.area {
+
+	&__item {	
+	}
+
+	&__title {
+		font-size: 18px;
+		color: $gray-color;
+
+		&_image-left {
+			background-image: url(../img/plane-left.png);
+			background-repeat: no-repeat;
+			background-position: 60% 50%;
+		}
+
+		&_image-right {
+			background-image: url(../img/plane-right.png);
+			background-repeat: no-repeat;
+			background-position: 65% 50%;
+			
+		}
+	}
+
+	&__subtitle {
+		font-size: 24px;
+		line-height: 1.5;
+	}
+
+	&__picture {
+	}
+
+	&__image {
+
+		padding: 8px 7px;
+		border-radius: 50%;
+		border: 1px dashed rgba(0, 0, 0, 0.5);
+
+		&_plane {
+		}
+
+		&_date {
+		}
+	}
+}
 
 

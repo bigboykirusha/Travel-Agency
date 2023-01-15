@@ -131,28 +131,15 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   padding: 28px 0;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  row-gap: 50px;
+  gap: 50px 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .header__logo {
   font-size: 48px;
-}
-.header__body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-left: 50px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  row-gap: 30px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
 }
 .header__items {
   display: -webkit-box;
@@ -160,15 +147,17 @@ h6 {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  row-gap: 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 50px 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .header__item {
   display: inline;
-  padding-right: 50px;
 }
+
 .button {
   padding: 15px 44px;
   color: #3E86F5;
@@ -188,10 +177,12 @@ h6 {
 .about-block__title {
   font-weight: 600;
   font-size: 64px;
+  min-height: 168px;
+  line-height: 1.5;
   padding-bottom: 40px;
 }
 .about-block__subtitle {
-  line-height: 200%;
+  line-height: 2;
 }
 .about-block__ibg {
   position: absolute;

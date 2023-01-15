@@ -3,10 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-.body {
-	
-}
-
 .main {
 	flex: 1 1 auto;
 }
@@ -15,11 +11,6 @@
 	position: absolute;
 	z-index: 2;
 	width: 100%;
-	// .header__container
-
-	&__container {
-	}
-
 
 	// .header__navigation
 
@@ -27,42 +18,28 @@
 		color: $white-color;
 		display: flex;
 		padding: 28px 0;
-		justify-content: space-between;
-		row-gap: 50px;
+		gap: 50px 50px;
+		flex-wrap: wrap;
 	}
 
 	// .header__logo
 
 	&__logo {
 		font-size: 48px;
-	}
-
-	// .header__body
-
-	&__body {
-		display: flex;
-		align-items: center;
-		padding-left: 50px;
-		flex-wrap: wrap;
-		justify-content: center;
-		row-gap: 30px;
+		flex: 1 1 auto;
 	}
 
 	// .header__nav
 	&__items {
 		display: flex;
 		flex-wrap: wrap;
-		row-gap: 20px;	
-		justify-content:space-between
+		justify-content: space-around;
+		gap: 50px 50px;
+		align-items: center;
 	}
 
 	&__item {
 		display: inline;
-		padding-right: 50px;
-	}
-
-	&__button {
-		
 	}
 
 }
@@ -74,12 +51,6 @@
 }
 	
 .about-block {
-
-	// .about-block__container
-
-	&__container {
-
-	}
 
 	// .about-block__preview
 
@@ -98,13 +69,15 @@
 	&__title {
 		font-weight: 600;
 		font-size: 64px;
+		min-height: 168px;
+		line-height: 1.5;
 		padding-bottom: 40px;
 	}
 
 	// .about-block__subtitle
 
 	&__subtitle {
-		line-height: 200%;
+		line-height: 2;
 	}
 
 	// .about-block__ibg

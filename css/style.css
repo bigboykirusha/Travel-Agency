@@ -481,9 +481,8 @@ h6 {
 }
 
 .travel__container {
-  margin: 0 auto;
   max-width: 1390px;
-  padding: 0 120px;
+  padding: 80px 120px;
 }
 .travel__body {
   padding: 0px;
@@ -549,7 +548,7 @@ h6 {
   left: 77%;
 }
 .table_thrid {
-  top: 64%;
+  top: 66%;
   left: 81%;
 }
 .table__title {
@@ -564,4 +563,103 @@ h6 {
   line-height: 1.5;
   color: #000000;
   margin-top: -14px;
+}
+
+.rec__body {
+  padding-bottom: 120px;
+}
+.rec__title {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.rec__chose {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 80px;
+}
+.rec__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 10px;
+  padding: 10px;
+  -webkit-column-gap: 2px;
+     -moz-column-gap: 2px;
+          column-gap: 2px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+.rec__button {
+  padding: 10px 23px;
+}
+.rec__button:first-child {
+  background: #FFFFFF;
+  border-radius: 10px;
+  color: #3E86F5;
+}
+.rec__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.rec__card {
+  background: #FFFFFF;
+  -webkit-box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  padding: 10px;
+  position: relative;
+}
+.rec__rating {
+  position: absolute;
+  background: #FFFFFF;
+  border-radius: 25px;
+  padding: 1px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  top: 7%;
+  left: 73%;
+}
+.rec__text {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1;
+}
+.rec__picture {
+  padding-bottom: 17px;
+}
+.rec__name {
+  font-weight: 600;
+  text-align: left;
+  padding: 0 20px 5px 20px;
+}
+.rec__subtitle {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+  background: url(../img/Location.png);
+  background-repeat: no-repeat;
+  padding: 0 17px;
+  line-height: 1.5;
+  margin: 0 20px;
 }

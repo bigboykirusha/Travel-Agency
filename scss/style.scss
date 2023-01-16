@@ -368,9 +368,8 @@
 .travel {
 	
 	&__container {
-		margin: 0 auto;
 		max-width: 1390px;
-		padding: 0 120px;
+		padding: 80px 120px;
 	}
 
 	&__body {
@@ -444,7 +443,7 @@
 	}
 
 	&_thrid {
-		top: 64%;
+		top: 66%;
 		left: 81%;
 	}
 
@@ -464,5 +463,107 @@
 	}
 }
 
-.title {
+.rec {
+
+	&__container {
+	}
+
+	&__body {
+		padding-bottom: 120px;
+	}
+
+	&__title {
+		text-align: center;
+		padding-bottom: 40px;
+	}
+
+	&__chose {
+		margin: 0 auto;
+		display: flex;
+		justify-content: center;
+		padding-bottom: 80px;
+	}
+
+	&__buttons {
+		display: flex;
+		border-radius: 10px;
+		padding: 10px;
+		column-gap: 2px;
+		font-size: 18px;
+		line-height: 1.5;
+		color: rgba(0, 0, 0, 0.5);
+		font-weight: 600;
+	}
+
+	&__button {
+		padding: 10px 23px;
+		&:first-child {
+			background: #FFFFFF;
+			border-radius: 10px;
+			color: #3E86F5;
+		}
+	}	
+
+	&__cards {
+		display: flex;
+		gap: 20px 20px;
+		justify-content: center;
+	}
+
+	&__card {
+		background: #FFFFFF;
+		box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.1);
+		border-radius: 25px;
+		padding: 10px;
+		position: relative;
+	}
+
+	&__rating {
+		position: absolute;
+		background: #FFFFFF;
+		border-radius: 25px;
+		padding: 1px 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: fit-content;
+		top: 7%;
+		left: 73%;
+	}
+
+	&__star {
+
+	}
+
+	&__text {
+		font-weight: 500;
+		font-size: 12px;
+		line-height: 1;
+	}
+
+	&__picture {
+		padding-bottom: 17px;
+	}
+
+	&__image {
+	}
+
+	&__name {
+		font-weight: 600;
+		text-align: left;	
+		padding: 0 20px 5px 20px;
+	}
+
+	&__subtitle {
+		font-size: 14px;
+		color: rgba(0, 0, 0, 0.5);
+		background: url(../img/Location.png);
+		background-repeat: no-repeat;
+		padding: 0 17px;
+		line-height: 1.5;
+		margin: 0 20px;
+	}
 }
+
+
+

@@ -198,6 +198,7 @@ h6 {
 .about-block__subtitle {
   line-height: 2;
   font-size: calc(18px + 0.4166666667vw);
+  padding-bottom: 100px;
 }
 .about-block__ibg {
   position: absolute;
@@ -335,6 +336,7 @@ h6 {
 }
 .special__title {
   padding-bottom: 60px;
+  text-align: center;
 }
 .special__chose {
   margin: 0 auto;
@@ -417,6 +419,8 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 0 10px 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 .special__minibutton {
   background: #FCDDEC;
@@ -474,5 +478,90 @@ h6 {
   font-weight: 600;
   font-size: 48px;
   line-height: 1.5;
+}
+
+.travel__container {
+  margin: 0 auto;
+  max-width: 1390px;
+  padding: 0 120px;
+}
+.travel__body {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 120px;
+     -moz-column-gap: 120px;
+          column-gap: 120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.travel__block {
+  position: relative;
+}
+.travel__table {
+  position: absolute;
+}
+.travel__text {
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  min-width: 360px;
+}
+.travel__text > :not(:last-child) {
+  padding-bottom: 20px;
+}
+.travel__subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.5);
+}
+.travel__button {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  padding: 23px 34px;
+  background: #3E86F5;
+  border-radius: 10px;
+}
+
+.table {
   text-align: center;
+  padding: 27px 45px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 35px;
+}
+.table_first {
+  top: 50%;
+  left: -20%;
+}
+.table_second {
+  top: 8%;
+  left: 77%;
+}
+.table_thrid {
+  top: 64%;
+  left: 81%;
+}
+.table__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #3E86F5;
+}
+.table__subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000000;
+  margin-top: -14px;
 }

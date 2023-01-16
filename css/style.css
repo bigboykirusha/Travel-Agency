@@ -566,7 +566,7 @@ h6 {
 }
 
 .rec__body {
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .rec__title {
   text-align: center;

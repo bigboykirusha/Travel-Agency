@@ -123,7 +123,7 @@ h6 {
 
 .header {
   position: absolute;
-  z-index: 2;
+  z-index: 4;
   width: 100%;
 }
 .header__navigation {
@@ -194,16 +194,26 @@ h6 {
 .header__item {
   display: inline;
 }
+.header__item:hover {
+  text-decoration: underline;
+}
 .button {
   padding: 15px 44px;
   color: #3E86F5;
   background-color: #FFFFFF;
   border-radius: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 @media (max-width: 850px) {
   .button {
     margin: 0 auto;
   }
+}
+.button:hover {
+  background-color: #e2e1e1;
+  color: #2d6dcc;
 }
 
 .about-block {
@@ -327,7 +337,10 @@ h6 {
 }
 .booking-block__button {
   border-radius: 25px;
-  background: rgba(62, 134, 245, 0.2);
+  background-color: rgba(62, 134, 245, 0.2);
+}
+.booking-block__button:hover {
+  background-color: rgba(62, 134, 245, 0.3);
 }
 .booking-block__button_hotel .button-booking__picture {
   padding: 5.5px;
@@ -394,6 +407,12 @@ h6 {
 .booking-block__find {
   background: rgba(62, 134, 245, 0.8);
   border-radius: 65px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.booking-block__find:hover {
+  background: #3e86f5;
 }
 .booking-block__lupa {
   padding: 50px 52px;
@@ -410,6 +429,12 @@ h6 {
 }
 .button-booking:last-child {
   background-color: #FFFFFF;
+}
+.button-booking:last-child:hover {
+  background-color: rgba(62, 134, 245, 0.3);
+}
+.button-booking:last-child:active {
+  background-color: rgba(62, 134, 245, 0.2);
 }
 .button-booking__caption {
   line-height: 1.5;
@@ -524,16 +549,23 @@ h6 {
 }
 .special__button {
   padding: 10px 24px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 .special__button:first-child {
-  background-color: #3E86F5;
-  border-radius: 10px;
+  background: #3E86F5;
   color: #FFFFFF;
 }
 @media (max-width: 400px) {
   .special__button {
     padding: 10px 18px;
   }
+}
+.special__button:hover {
+  background: #3e86f5;
+  color: #FFFFFF;
 }
 .special__items {
   display: -webkit-box;
@@ -649,6 +681,12 @@ h6 {
   line-height: 1.5;
   color: #3E86F5;
   text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.special__click:hover {
+  background: rgba(62, 134, 245, 0.25);
 }
 
 .title {
@@ -821,6 +859,12 @@ h6 {
   padding: 23px 34px;
   background: #3E86F5;
   border-radius: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.travel__button:hover {
+  background: #2d6dcc;
 }
 
 .table {
@@ -929,16 +973,23 @@ h6 {
 }
 .rec__button {
   padding: 10px 23px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 .rec__button:first-child {
   background: #FFFFFF;
-  border-radius: 10px;
   color: #3E86F5;
 }
 @media (max-width: 700px) {
   .rec__button {
     padding: 10px 18px;
   }
+}
+.rec__button:hover {
+  background: #FFFFFF;
+  color: #3E86F5;
 }
 .rec__cards {
   display: -webkit-box;
@@ -1021,11 +1072,11 @@ h6 {
   padding-bottom: 56px;
 }
 .quote__body {
-  padding: 15vw 0 56px 0;
+  padding: 11.111vw 0 56px 0;
 }
 @media (min-width: 1440px) {
   .quote__body {
-    padding: 216px 0 56px 0;
+    padding: 160px 0 56px 0;
   }
 }
 .quote__items {
@@ -1115,8 +1166,8 @@ h6 {
 }
 .quote__subtitle::after {
   content: url(../img/quote1.png);
-  padding-top: 10px;
-  margin-bottom: -50%;
+  padding-top: 15px;
+  margin-bottom: -60%;
 }
 .quote__rating {
   left: 65%;
@@ -1137,6 +1188,15 @@ h6 {
   padding: 10px 15px;
   border: 2px solid rgba(62, 134, 245, 0.5);
   border-radius: 20px;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.slider__button:hover {
+  background-color: rgba(62, 134, 245, 0.2);
+}
+.slider__button:active {
+  background-color: rgba(62, 134, 245, 0.3);
 }
 .register__container {
   padding: 5.555556vw 20px 8.541667vw 20px;
@@ -1200,6 +1260,9 @@ h6 {
   padding: 25px 35px;
   font-weight: 500;
   color: #3E86F5;
+  -webkit-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 @media (max-width: 767px) {
   .register__button {
@@ -1220,6 +1283,10 @@ h6 {
   .register__button {
     padding: 20px 30px;
   }
+}
+.register__button:hover {
+  background-color: #e2e1e1;
+  color: #2d6dcc;
 }
 
 .footer {
@@ -1312,4 +1379,7 @@ h6 {
   .footer__link {
     font-size: 24px;
   }
+}
+.footer__link:hover {
+  text-decoration: underline;
 }

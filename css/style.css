@@ -390,9 +390,6 @@ h6 {
        -moz-column-gap: 32px;
             column-gap: 32px; /* 20/1440 */
   }
-  .booking-block__area:first-child {
-    padding: 43px 33px;
-  }
 }
 .booking-block__find {
   background: rgba(62, 134, 245, 0.8);
@@ -484,7 +481,7 @@ h6 {
 }
 @media (max-width: 590px) {
   .area__picture_mod {
-    padding-right: 9px;
+    padding-right: 16px;
   }
 }
 .area__image {

@@ -196,9 +196,6 @@
 			&:nth-child(2) {
 				column-gap: 32px; /* 20/1440 */
 			}
-			&:first-child {
-				padding: 43px 33px;
-			}
 		}
 	}
 
@@ -271,7 +268,7 @@
 	&__picture {
 		&_mod {
 			@media (max-width: 590px) {
-				padding-right: 9px;
+				padding-right: 16px;
 			}
 		}
 	}

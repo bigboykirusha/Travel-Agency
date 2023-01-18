@@ -633,9 +633,11 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 120%;
 }
 .special__second-title {
   line-height: 1.5;
+  white-space: nowrap;
 }
 .special__span {
   font-size: 18px;

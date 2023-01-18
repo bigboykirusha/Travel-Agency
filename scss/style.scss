@@ -334,6 +334,7 @@
 		@media (max-width: 400px) {
 			padding: 10px 18px; 
 		}
+		
 	}	
 
 	&__items {
@@ -414,11 +415,12 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		width: 120%;
 	}
 
 	&__second-title {
 		line-height: 1.5;
-
+		white-space: nowrap;
 	}
 
 	&__span {

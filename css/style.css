@@ -438,9 +438,6 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 10px;
-     -moz-column-gap: 10px;
-          column-gap: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -483,6 +480,11 @@ h6 {
 @media (min-width: 1440px) {
   .area__subtitle {
     font-size: 24px;
+  }
+}
+@media (max-width: 590px) {
+  .area__picture_mod {
+    padding-right: 9px;
   }
 }
 .area__image {

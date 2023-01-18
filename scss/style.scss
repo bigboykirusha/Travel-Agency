@@ -242,7 +242,7 @@
 		}
 		color: $gray-color;
 		display: flex;
-		column-gap: 10px;
+		
 		align-items: center;
 		
 		&_image-left {
@@ -269,6 +269,11 @@
 	}
 
 	&__picture {
+		&_mod {
+			@media (max-width: 590px) {
+				padding-right: 9px;
+			}
+		}
 	}
 
 	&__image {
